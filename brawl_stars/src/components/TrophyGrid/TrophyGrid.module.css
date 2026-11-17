@@ -159,66 +159,75 @@
 /* Cells */
 
 .grid td {
-  position: relative;
   padding: 3px 1px;
 }
 
 .cell {
-  position: relative;
+  --f: var(--fill, 100%);
   height: 28px;
-  overflow: hidden;
   border: 2px solid color-mix(in oklch, var(--c) 38%, var(--panel));
   border-radius: 6px;
-  background: color-mix(in oklch, var(--c) 13%, transparent);
+  background-color: color-mix(in oklch, var(--c) 13%, transparent);
+  background-image:
+    var(--median-line, none), var(--tick-line, none), var(--shade, none),
+    var(--fill-img, none);
+  background-size:
+    2px 100%,
+    5px 100%,
+    var(--f) 100%,
+    var(--f) 100%;
+  background-position:
+    var(--median-at) 0,
+    var(--at, 0) 0,
+    0 0,
+    0 0;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
 }
 
 .reached {
   border-color: var(--outline);
+  --shade: linear-gradient(
+    rgb(255 255 255 / 0.28) 3px,
+    transparent 3px calc(100% - 4px),
+    rgb(0 0 0 / 0.2) calc(100% - 4px)
+  );
+  --fill-img: linear-gradient(var(--c), var(--c));
 }
 
-.fill {
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: var(--fill, 100%);
-  background:
-    linear-gradient(
-      rgb(255 255 255 / 0.28) 3px,
-      transparent 3px calc(100% - 4px),
-      rgb(0 0 0 / 0.2) calc(100% - 4px)
-    ),
-    var(--c);
-}
-
-.partial .fill {
-  border-right: 2px solid var(--outline);
+/* The current step is partly filled and ends in a dark edge */
+.partial {
+  --fill-img: linear-gradient(to left, var(--outline) 2px, var(--c) 2px);
 }
 
 /* Highest trophies reached, when above the current count */
 .tick {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: var(--at);
-  width: 3px;
-  margin-left: -1.5px;
-  background: var(--text);
-  box-shadow: 0 0 0 1px var(--outline);
+  --tick-line: linear-gradient(
+    to right,
+    var(--outline) 1px,
+    var(--text) 1px 4px,
+    var(--outline) 4px
+  );
 }
 
-/* Median guide: the front of the even push */
-.median::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: var(--median-at);
-  border-left: 2px dashed rgb(255 255 255 / 0.7);
-  pointer-events: none;
+/* Median guide: the front of the even push. Drawn on the cell and on the cell's padding,
+   so the dashed line runs through the whole column. */
+.grid td.median {
+  --median-line: repeating-linear-gradient(
+    rgb(255 255 255 / 0.7) 0 4px,
+    transparent 4px 7px
+  );
+  background: var(--median-line) var(--median-at) 0 / 2px 100% no-repeat;
 }
 
 .grid thead th.median::after {
-  top: auto;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: var(--median-at);
   height: 6px;
+  border-left: 2px dashed rgb(255 255 255 / 0.7);
+  pointer-events: none;
 }
 
 /* Separator between brawlers below the current goal and those that reached it */
@@ -261,7 +270,7 @@
 .locked .cell {
   border-style: dashed;
   border-color: var(--line);
-  background: none;
+  background-color: transparent;
 }
 
 @media (max-width: 600px) {

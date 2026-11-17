@@ -221,9 +221,16 @@ const BrawlerRow = memo(function BrawlerRow({
           styles.cell,
           fraction > 0 && styles.reached,
           fraction > 0 && fraction < 1 && styles.partial,
+          showTick && styles.tick,
         ]
           .filter(Boolean)
           .join(" ");
+        const cellVars: Record<string, string> = {};
+        if (fraction > 0 && fraction < 1)
+          cellVars["--fill"] = percent(fraction);
+        if (showTick) {
+          cellVars["--at"] = percent(positionInStep(highestTrophies));
+        }
 
         return (
           <td
@@ -233,26 +240,7 @@ const BrawlerRow = memo(function BrawlerRow({
             title={label}
             aria-label={label}
           >
-            <div className={cellClass}>
-              {fraction > 0 && (
-                <span
-                  className={styles.fill}
-                  style={
-                    fraction < 1
-                      ? vars({ "--fill": percent(fraction) })
-                      : undefined
-                  }
-                />
-              )}
-              {showTick && (
-                <span
-                  className={styles.tick}
-                  style={vars({
-                    "--at": percent(positionInStep(highestTrophies)),
-                  })}
-                />
-              )}
-            </div>
+            <div className={cellClass} style={vars(cellVars)} />
           </td>
         );
       })}
