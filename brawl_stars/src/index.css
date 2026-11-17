@@ -29,23 +29,14 @@ body,
 
 body {
   margin: 0;
-  background: var(--bg);
+  background:
+    radial-gradient(ellipse at 50% 30%, transparent 30%, var(--bg) 85%),
+    radial-gradient(var(--grid-dot) 1px, transparent 1px) 0 0 / 28px 28px,
+    var(--bg);
   color: var(--text);
   font-family: var(--font-body);
   font-size: 14px;
   line-height: 1.4;
-}
-
-/* Faint dot grid, as on the portfolio */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background-image: radial-gradient(var(--grid-dot) 1px, transparent 1px);
-  background-size: 28px 28px;
-  mask-image: radial-gradient(ellipse at 50% 30%, #000 30%, transparent 85%);
 }
 
 ::selection {

@@ -229,7 +229,7 @@ const BrawlerRow = memo(function BrawlerRow({
           <td
             key={col.step}
             className={col.step === medianStep ? styles.median : undefined}
-            style={vars({ "--c": col.color, "--i": col.step })}
+            style={vars({ "--c": col.color })}
             title={label}
             aria-label={label}
           >
