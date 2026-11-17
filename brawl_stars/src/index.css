@@ -1,0 +1,59 @@
+:root {
+  /* Palette shared with the portfolio (dark theme) */
+  --bg: #0a0e1a;
+  --panel: #121829;
+  --panel-edge: #04060c;
+  --text: #e8ebf4;
+  --text-dim: #b9c0d2;
+  --line: rgba(232, 235, 244, 0.1);
+  --line-strong: rgba(232, 235, 244, 0.32);
+  --accent: #4d8dff;
+  --warn: #f2a65e;
+  --outline: #04060c;
+  --grid-dot: rgba(232, 235, 244, 0.07);
+  --font-display:
+    "Lilita One", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Faint dot grid, as on the portfolio */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: radial-gradient(var(--grid-dot) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: radial-gradient(ellipse at 50% 30%, #000 30%, transparent 85%);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}

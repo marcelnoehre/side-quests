@@ -1,0 +1,877 @@
+{
+ "tag": "#2QPU0PV9C",
+ "name": "sQeeZ",
+ "nameColor": "0xffcb5aff",
+ "icon": {
+  "id": 28000403
+ },
+ "trophies": 144301,
+ "highestTrophies": 144301,
+ "totalPrestigeLevel": 126,
+ "brawlers": [
+  {
+   "id": 16000000,
+   "name": "SHELLY",
+   "power": 11,
+   "trophies": 2009,
+   "highestTrophies": 2009,
+   "currentWinStreak": 6
+  },
+  {
+   "id": 16000001,
+   "name": "COLT",
+   "power": 11,
+   "trophies": 1234,
+   "highestTrophies": 1248,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000002,
+   "name": "BULL",
+   "power": 11,
+   "trophies": 2131,
+   "highestTrophies": 2144,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000003,
+   "name": "BROCK",
+   "power": 11,
+   "trophies": 2004,
+   "highestTrophies": 2004,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000004,
+   "name": "RICO",
+   "power": 11,
+   "trophies": 1157,
+   "highestTrophies": 1162,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000005,
+   "name": "SPIKE",
+   "power": 11,
+   "trophies": 1200,
+   "highestTrophies": 1200,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000006,
+   "name": "BARLEY",
+   "power": 11,
+   "trophies": 1211,
+   "highestTrophies": 1211,
+   "currentWinStreak": 8
+  },
+  {
+   "id": 16000007,
+   "name": "JESSIE",
+   "power": 11,
+   "trophies": 1200,
+   "highestTrophies": 1200,
+   "currentWinStreak": 3
+  },
+  {
+   "id": 16000008,
+   "name": "NITA",
+   "power": 11,
+   "trophies": 1202,
+   "highestTrophies": 1202,
+   "currentWinStreak": 4
+  },
+  {
+   "id": 16000009,
+   "name": "DYNAMIKE",
+   "power": 11,
+   "trophies": 1201,
+   "highestTrophies": 1201,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000010,
+   "name": "EL PRIMO",
+   "power": 11,
+   "trophies": 1119,
+   "highestTrophies": 1125,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000011,
+   "name": "MORTIS",
+   "power": 11,
+   "trophies": 1305,
+   "highestTrophies": 1305,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000012,
+   "name": "CROW",
+   "power": 11,
+   "trophies": 1201,
+   "highestTrophies": 1201,
+   "currentWinStreak": 4
+  },
+  {
+   "id": 16000013,
+   "name": "POCO",
+   "power": 11,
+   "trophies": 1129,
+   "highestTrophies": 1133,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000014,
+   "name": "BO",
+   "power": 11,
+   "trophies": 1500,
+   "highestTrophies": 1500,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000015,
+   "name": "PIPER",
+   "power": 11,
+   "trophies": 1302,
+   "highestTrophies": 1302,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000016,
+   "name": "PAM",
+   "power": 9,
+   "trophies": 1112,
+   "highestTrophies": 1112,
+   "currentWinStreak": 3
+  },
+  {
+   "id": 16000017,
+   "name": "TARA",
+   "power": 11,
+   "trophies": 1142,
+   "highestTrophies": 1147,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000018,
+   "name": "DARRYL",
+   "power": 11,
+   "trophies": 1142,
+   "highestTrophies": 1144,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000019,
+   "name": "PENNY",
+   "power": 11,
+   "trophies": 1206,
+   "highestTrophies": 1213,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000020,
+   "name": "FRANK",
+   "power": 11,
+   "trophies": 1142,
+   "highestTrophies": 1148,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000021,
+   "name": "GENE",
+   "power": 11,
+   "trophies": 1102,
+   "highestTrophies": 1102,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000022,
+   "name": "TICK",
+   "power": 11,
+   "trophies": 1301,
+   "highestTrophies": 1301,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000023,
+   "name": "LEON",
+   "power": 11,
+   "trophies": 1116,
+   "highestTrophies": 1116,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000024,
+   "name": "ROSA",
+   "power": 11,
+   "trophies": 1104,
+   "highestTrophies": 1104,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000025,
+   "name": "CARL",
+   "power": 11,
+   "trophies": 1209,
+   "highestTrophies": 1209,
+   "currentWinStreak": 5
+  },
+  {
+   "id": 16000026,
+   "name": "BIBI",
+   "power": 11,
+   "trophies": 2009,
+   "highestTrophies": 2009,
+   "currentWinStreak": 3
+  },
+  {
+   "id": 16000027,
+   "name": "8-BIT",
+   "power": 11,
+   "trophies": 1161,
+   "highestTrophies": 1163,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000028,
+   "name": "SANDY",
+   "power": 11,
+   "trophies": 1115,
+   "highestTrophies": 1122,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000029,
+   "name": "BEA",
+   "power": 11,
+   "trophies": 1204,
+   "highestTrophies": 1204,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000030,
+   "name": "EMZ",
+   "power": 11,
+   "trophies": 1205,
+   "highestTrophies": 1208,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000031,
+   "name": "MR. P",
+   "power": 11,
+   "trophies": 1120,
+   "highestTrophies": 1126,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000032,
+   "name": "MAX",
+   "power": 11,
+   "trophies": 1107,
+   "highestTrophies": 1107,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000034,
+   "name": "JACKY",
+   "power": 9,
+   "trophies": 1104,
+   "highestTrophies": 1104,
+   "currentWinStreak": 3
+  },
+  {
+   "id": 16000035,
+   "name": "GALE",
+   "power": 11,
+   "trophies": 1206,
+   "highestTrophies": 1206,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000036,
+   "name": "NANI",
+   "power": 11,
+   "trophies": 1160,
+   "highestTrophies": 1166,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000037,
+   "name": "SPROUT",
+   "power": 11,
+   "trophies": 1254,
+   "highestTrophies": 1261,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000038,
+   "name": "SURGE",
+   "power": 11,
+   "trophies": 2011,
+   "highestTrophies": 2011,
+   "currentWinStreak": 3
+  },
+  {
+   "id": 16000039,
+   "name": "COLETTE",
+   "power": 11,
+   "trophies": 2001,
+   "highestTrophies": 2001,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000040,
+   "name": "AMBER",
+   "power": 11,
+   "trophies": 1214,
+   "highestTrophies": 1214,
+   "currentWinStreak": 5
+  },
+  {
+   "id": 16000041,
+   "name": "LOU",
+   "power": 11,
+   "trophies": 1201,
+   "highestTrophies": 1201,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000042,
+   "name": "BYRON",
+   "power": 11,
+   "trophies": 1468,
+   "highestTrophies": 1468,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000043,
+   "name": "EDGAR",
+   "power": 11,
+   "trophies": 2000,
+   "highestTrophies": 2041,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000044,
+   "name": "RUFFS",
+   "power": 11,
+   "trophies": 1207,
+   "highestTrophies": 1207,
+   "currentWinStreak": 4
+  },
+  {
+   "id": 16000045,
+   "name": "STU",
+   "power": 11,
+   "trophies": 1250,
+   "highestTrophies": 1250,
+   "currentWinStreak": 4
+  },
+  {
+   "id": 16000046,
+   "name": "BELLE",
+   "power": 11,
+   "trophies": 1112,
+   "highestTrophies": 1118,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000047,
+   "name": "SQUEAK",
+   "power": 11,
+   "trophies": 2001,
+   "highestTrophies": 2001,
+   "currentWinStreak": 5
+  },
+  {
+   "id": 16000048,
+   "name": "GROM",
+   "power": 11,
+   "trophies": 1117,
+   "highestTrophies": 1119,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000049,
+   "name": "BUZZ",
+   "power": 11,
+   "trophies": 1127,
+   "highestTrophies": 1142,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000050,
+   "name": "GRIFF",
+   "power": 11,
+   "trophies": 1222,
+   "highestTrophies": 1229,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000051,
+   "name": "ASH",
+   "power": 11,
+   "trophies": 1132,
+   "highestTrophies": 1132,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000052,
+   "name": "MEG",
+   "power": 11,
+   "trophies": 1207,
+   "highestTrophies": 1207,
+   "currentWinStreak": 4
+  },
+  {
+   "id": 16000053,
+   "name": "LOLA",
+   "power": 11,
+   "trophies": 1161,
+   "highestTrophies": 1161,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000054,
+   "name": "FANG",
+   "power": 11,
+   "trophies": 1206,
+   "highestTrophies": 1214,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000056,
+   "name": "EVE",
+   "power": 11,
+   "trophies": 1202,
+   "highestTrophies": 1206,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000057,
+   "name": "JANET",
+   "power": 9,
+   "trophies": 1107,
+   "highestTrophies": 1107,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000058,
+   "name": "BONNIE",
+   "power": 9,
+   "trophies": 1106,
+   "highestTrophies": 1107,
+   "currentWinStreak": 3
+  },
+  {
+   "id": 16000059,
+   "name": "OTIS",
+   "power": 11,
+   "trophies": 1118,
+   "highestTrophies": 1129,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000060,
+   "name": "SAM",
+   "power": 9,
+   "trophies": 1115,
+   "highestTrophies": 1115,
+   "currentWinStreak": 3
+  },
+  {
+   "id": 16000061,
+   "name": "GUS",
+   "power": 11,
+   "trophies": 1339,
+   "highestTrophies": 1339,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000062,
+   "name": "BUSTER",
+   "power": 9,
+   "trophies": 1107,
+   "highestTrophies": 1107,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000063,
+   "name": "CHESTER",
+   "power": 11,
+   "trophies": 1119,
+   "highestTrophies": 1119,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000064,
+   "name": "GRAY",
+   "power": 11,
+   "trophies": 1136,
+   "highestTrophies": 1139,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000065,
+   "name": "MANDY",
+   "power": 11,
+   "trophies": 1211,
+   "highestTrophies": 1211,
+   "currentWinStreak": 3
+  },
+  {
+   "id": 16000066,
+   "name": "R-T",
+   "power": 9,
+   "trophies": 1106,
+   "highestTrophies": 1106,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000067,
+   "name": "WILLOW",
+   "power": 9,
+   "trophies": 1112,
+   "highestTrophies": 1114,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000068,
+   "name": "MAISIE",
+   "power": 9,
+   "trophies": 1212,
+   "highestTrophies": 1220,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000069,
+   "name": "HANK",
+   "power": 11,
+   "trophies": 1201,
+   "highestTrophies": 1201,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000070,
+   "name": "CORDELIUS",
+   "power": 11,
+   "trophies": 1414,
+   "highestTrophies": 1435,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000071,
+   "name": "DOUG",
+   "power": 11,
+   "trophies": 1225,
+   "highestTrophies": 1230,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000072,
+   "name": "PEARL",
+   "power": 9,
+   "trophies": 1135,
+   "highestTrophies": 1142,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000073,
+   "name": "CHUCK",
+   "power": 11,
+   "trophies": 1520,
+   "highestTrophies": 1610,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000074,
+   "name": "CHARLIE",
+   "power": 9,
+   "trophies": 1103,
+   "highestTrophies": 1103,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000075,
+   "name": "MICO",
+   "power": 11,
+   "trophies": 1130,
+   "highestTrophies": 1130,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000076,
+   "name": "KIT",
+   "power": 11,
+   "trophies": 1313,
+   "highestTrophies": 1337,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000077,
+   "name": "LARRY & LAWRIE",
+   "power": 9,
+   "trophies": 1210,
+   "highestTrophies": 1210,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000078,
+   "name": "MELODIE",
+   "power": 11,
+   "trophies": 1165,
+   "highestTrophies": 1165,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000079,
+   "name": "ANGELO",
+   "power": 11,
+   "trophies": 1200,
+   "highestTrophies": 1200,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000080,
+   "name": "DRACO",
+   "power": 11,
+   "trophies": 1101,
+   "highestTrophies": 1101,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000081,
+   "name": "LILY",
+   "power": 11,
+   "trophies": 2001,
+   "highestTrophies": 2001,
+   "currentWinStreak": 3
+  },
+  {
+   "id": 16000082,
+   "name": "BERRY",
+   "power": 11,
+   "trophies": 1201,
+   "highestTrophies": 1201,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000083,
+   "name": "CLANCY",
+   "power": 11,
+   "trophies": 1205,
+   "highestTrophies": 1205,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000084,
+   "name": "MOE",
+   "power": 11,
+   "trophies": 1150,
+   "highestTrophies": 1156,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000085,
+   "name": "KENJI",
+   "power": 11,
+   "trophies": 1204,
+   "highestTrophies": 1204,
+   "currentWinStreak": 4
+  },
+  {
+   "id": 16000086,
+   "name": "SHADE",
+   "power": 11,
+   "trophies": 1532,
+   "highestTrophies": 1548,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000087,
+   "name": "JUJU",
+   "power": 11,
+   "trophies": 1118,
+   "highestTrophies": 1125,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000089,
+   "name": "MEEPLE",
+   "power": 11,
+   "trophies": 1122,
+   "highestTrophies": 1122,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000090,
+   "name": "OLLIE",
+   "power": 11,
+   "trophies": 1107,
+   "highestTrophies": 1109,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000091,
+   "name": "LUMI",
+   "power": 11,
+   "trophies": 1203,
+   "highestTrophies": 1211,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000092,
+   "name": "FINX",
+   "power": 11,
+   "trophies": 1156,
+   "highestTrophies": 1156,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000093,
+   "name": "JAE-YONG",
+   "power": 9,
+   "trophies": 1102,
+   "highestTrophies": 1102,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000094,
+   "name": "KAZE",
+   "power": 11,
+   "trophies": 1133,
+   "highestTrophies": 1140,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000095,
+   "name": "ALLI",
+   "power": 11,
+   "trophies": 1212,
+   "highestTrophies": 1212,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000096,
+   "name": "TRUNK",
+   "power": 11,
+   "trophies": 1130,
+   "highestTrophies": 1132,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000097,
+   "name": "MINA",
+   "power": 11,
+   "trophies": 1123,
+   "highestTrophies": 1125,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000098,
+   "name": "ZIGGY",
+   "power": 11,
+   "trophies": 1138,
+   "highestTrophies": 1145,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000099,
+   "name": "PIERCE",
+   "power": 11,
+   "trophies": 1201,
+   "highestTrophies": 1201,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000100,
+   "name": "GIGI",
+   "power": 11,
+   "trophies": 1317,
+   "highestTrophies": 1317,
+   "currentWinStreak": 2
+  },
+  {
+   "id": 16000101,
+   "name": "GLOWY",
+   "power": 11,
+   "trophies": 1133,
+   "highestTrophies": 1140,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000102,
+   "name": "SIRIUS",
+   "power": 11,
+   "trophies": 2157,
+   "highestTrophies": 2183,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000103,
+   "name": "NAJIA",
+   "power": 11,
+   "trophies": 2005,
+   "highestTrophies": 2005,
+   "currentWinStreak": 5
+  },
+  {
+   "id": 16000104,
+   "name": "DAMIAN",
+   "power": 11,
+   "trophies": 2000,
+   "highestTrophies": 2004,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000105,
+   "name": "STARR NOVA",
+   "power": 11,
+   "trophies": 2004,
+   "highestTrophies": 2009,
+   "currentWinStreak": 1
+  },
+  {
+   "id": 16000106,
+   "name": "BOLT",
+   "power": 11,
+   "trophies": 2123,
+   "highestTrophies": 2133,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000107,
+   "name": "NORI",
+   "power": 11,
+   "trophies": 2646,
+   "highestTrophies": 2758,
+   "currentWinStreak": 0
+  },
+  {
+   "id": 16000108,
+   "name": "WENDY",
+   "power": 11,
+   "trophies": 3000,
+   "highestTrophies": 3000,
+   "currentWinStreak": 3
+  },
+  {
+   "id": 16000109,
+   "name": "COSMO",
+   "power": 11,
+   "trophies": 2008,
+   "highestTrophies": 2008,
+   "currentWinStreak": 3
+  },
+  {
+   "id": 16000110,
+   "name": "VINCE",
+   "power": 11,
+   "trophies": 1200,
+   "highestTrophies": 1203,
+   "currentWinStreak": 1
+  }
+ ]
+}

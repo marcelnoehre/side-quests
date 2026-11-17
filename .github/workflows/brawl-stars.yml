@@ -1,0 +1,76 @@
+# Brawl Stars trophy grid: refreshes the player data and deploys the app to GitHub Pages
+# at /side-quests/brawl-stars/ (marcel-noehre.de/bs redirects there from the portfolio).
+#
+# Runs hourly, on demand, and on pushes touching brawl_stars/. Every run fetches fresh
+# data and ships it with the build; the data is never committed. If the fetch fails, the
+# run fails and the live site keeps its previous version.
+#
+# Needs the repository secret BRAWL_API_KEY (a key whitelisted for the RoyaleAPI proxy IP)
+# and Settings → Pages → Source set to "GitHub Actions".
+
+name: Brawl Stars
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "brawl_stars/**"
+      - ".github/workflows/brawl-stars.yml"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: brawl-stars
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: brawl_stars
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: brawl_stars/package-lock.json
+
+      - run: npm ci
+
+      - name: Fetch player data
+        run: npm run fetch
+        env:
+          BRAWL_API_KEY: ${{ secrets.BRAWL_API_KEY }}
+
+      - run: npm test
+      - run: npm run build
+
+      # Each side quest gets its own folder on the Pages site: /side-quests/brawl-stars/
+      - name: Assemble site
+        run: |
+          mkdir -p ../_site
+          cp -r dist ../_site/brawl-stars
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
