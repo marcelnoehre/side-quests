@@ -1,7 +1,9 @@
 # Brawl Stars trophy grid: refreshes the player data and deploys the app to GitHub Pages
 # at /side-quests/brawl-stars/ (marcel-noehre.de/bs redirects there from the portfolio).
 #
-# Runs hourly, on demand, and on pushes touching brawl_stars/. Every run fetches fresh
+# Runs on demand and on pushes touching brawl_stars/. The hourly refresh is triggered
+# externally (cron-job.org → workflow_dispatch API), because GitHub's own `schedule`
+# trigger was delayed or dropped most of the time. Every run fetches fresh
 # data and ships it with the build; the data is never committed. If the fetch fails, the
 # run fails and the live site keeps its previous version.
 #
@@ -11,8 +13,6 @@
 name: Brawl Stars
 
 on:
-  schedule:
-    - cron: "17 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
